@@ -1,0 +1,98 @@
+body {
+  font-size: 15px;
+  font-family: "https://fonts.google.com/specimen/Lexend+Deca";
+  font-weight: 400;
+  padding-top: 40px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  min-height: 300px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item1 {
+  min-height: 300px;
+  background-color: hsl(31, 77%, 52%);
+  min-width: 100px;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.flex-item2 {
+  min-height: 300px;
+  background-color: hsl(184, 100%, 22%);
+  min-width: 100px;
+  padding: 20px;
+}
+.flex-item3 {
+  min-height: 300px;
+  background-color: hsl(179, 100%, 13%);
+  min-width: 100px;
+  padding: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+h1 {
+  color: #fff;
+}
+
+button {
+  width: 100px;
+  padding: 3px;
+  border-radius: 20px;
+}
+
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700 */
+
